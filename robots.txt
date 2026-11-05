@@ -19,5 +19,9 @@ User-agent: omgili
 User-agent: img2dataset
 Disallow: /
 
+# AI 학습 거부 공통 신호 (draft-kelley-aipref-training-preference-signal)
+User-agent: __usage_ai-training
+Disallow: /
+
 User-agent: *
 Allow: /
